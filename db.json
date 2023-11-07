@@ -1,0 +1,222 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "image_url": "https://johnthecomputerman.co.uk/storage/2021/05/introtoprogramming-190909184629-thumbnail-4.jpg",
+      "coursename": "Introduction to Programming",
+      "description": "This course typically covers fundamental programming concepts and might use languages like Python or JavaScript as a starting point.",
+      "instructor": "Olivia Anderson",
+      "course_price": "89.99",
+      "course_details": "These are just a few examples, and there are many more specialized programming language courses available depending on your interests and career goals. When choosing a course, consider your skill level, your objectives, and the specific programming languages or technologies you want to learn."
+    },
+    {
+      "id": 2,
+      "image_url": "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2023/06/python-coding-1.jpg",
+      "coursename": "Programming with Python",
+      "description": "Focuses on the Python programming language, often considered an excellent language for beginners.",
+      "instructor": "Liam Smith",
+      "course_price": "89.99",
+      "course_details": "These are just a few examples, and there are many more specialized programming language courses available depending on your interests and career goals. When choosing a course, consider your skill level, your objectives, and the specific programming languages or technologies you want to learn."
+    },
+    {
+      "id": 3,
+      "image_url": "https://i.pcmag.com/imagery/articles/03mYCJkIdptJX1Soh08tBzt-1..v1630572092.jpg",
+      "coursename": "Java Programming",
+      "description": "Covers the Java programming language, widely used for web and mobile app development.",
+      "instructor": "Sophia Johnson",
+      "course_price": "89.99",
+      "course_details": "These are just a few examples, and there are many more specialized programming language courses available depending on your interests and career goals. When choosing a course, consider your skill level, your objectives, and the specific programming languages or technologies you want to learn."
+    },
+    {
+      "id": 4,
+      "image_url": "https://d3mxt5v3yxgcsr.cloudfront.net/courses/7934/course_7934_image.jpeg",
+      "coursename": "C++ Programming",
+      "description": "Focuses on C++, a language commonly used in systems programming, game development, and more.",
+      "instructor": "Noah Brown",
+      "course_price": "89.99",
+      "course_details": "These are just a few examples, and there are many more specialized programming language courses available depending on your interests and career goals. When choosing a course, consider your skill level, your objectives, and the specific programming languages or technologies you want to learn."
+    },
+    {
+      "id": 5,
+      "image_url": "https://img-b.udemycdn.com/course/750x422/2492962_f098.jpg",
+      "coursename": "Web Development with HTML, CSS, and JavaScript",
+      "description": "Teaches web development fundamentals using HTML, CSS, and JavaScript.",
+      "instructor": "Ava Davis",
+      "course_price": "89.99",
+      "course_details": "These are just a few examples, and there are many more specialized programming language courses available depending on your interests and career goals. When choosing a course, consider your skill level, your objectives, and the specific programming languages or technologies you want to learn."
+    },
+    {
+      "id": 6,
+      "image_url": "https://fullscale.io/wp-content/uploads/2022/04/python-data-science.png",
+      "coursename": "Data Science with Python",
+      "description": "Focuses on using Python for data analysis, machine learning, and data visualization.",
+      "instructor": "Ethan Wilson",
+      "course_price": "89.99",
+      "course_details": "These are just a few examples, and there are many more specialized programming language courses available depending on your interests and career goals. When choosing a course, consider your skill level, your objectives, and the specific programming languages or technologies you want to learn."
+    },
+    {
+      "id": 7,
+      "image_url": "https://www.hiddenbrains.com/blog/wp-content/uploads/2020/04/Swift-Development-for-iOS.jpg",
+      "coursename": "iOS App Development with Swift",
+      "description": "Teaches how to create iOS apps using the Swift programming language.",
+      "instructor": "Isabella Martinez",
+      "course_price": "89.99",
+      "course_details": "These are just a few examples, and there are many more specialized programming language courses available depending on your interests and career goals. When choosing a course, consider your skill level, your objectives, and the specific programming languages or technologies you want to learn."
+    },
+    {
+      "id": 8,
+      "image_url": "https://miro.medium.com/v2/resize:fit:568/1*Oz56Ltw9TBUt2Asy4F6OjQ.jpeg",
+      "coursename": "Android App Development with Kotlin",
+      "description": "Covers app development for Android using the Kotlin programming language.",
+      "instructor": "Mason Lee",
+      "course_price": "89.99",
+      "course_details": "These are just a few examples, and there are many more specialized programming language courses available depending on your interests and career goals. When choosing a course, consider your skill level, your objectives, and the specific programming languages or technologies you want to learn."
+    },
+    {
+      "id": 9,
+      "image_url": "https://miro.medium.com/v2/resize:fit:800/0*ZEPJsASfB2z7hi_0",
+      "coursename": "Full-Stack Web Development",
+      "description": "Provides comprehensive training in both front-end (HTML, CSS, JavaScript) and back-end (Node.js, Python, Ruby, etc.) web development.",
+      "instructor": "Mia Taylor",
+      "course_price": "89.99",
+      "course_details": "These are just a few examples, and there are many more specialized programming language courses available depending on your interests and career goals. When choosing a course, consider your skill level, your objectives, and the specific programming languages or technologies you want to learn."
+    },
+    {
+      "id": 10,
+      "image_url": "https://www.freecodecamp.org/news/content/images/2022/09/OOP.png",
+      "coursename": "Object-Oriented Programming (OOP)",
+      "description": "Focuses on the principles of object-oriented programming, which can be applied to various programming languages.",
+      "instructor": "Benjamin White",
+      "course_price": "89.99",
+      "course_details": "These are just a few examples, and there are many more specialized programming language courses available depending on your interests and career goals. When choosing a course, consider your skill level, your objectives, and the specific programming languages or technologies you want to learn."
+    },
+    {
+      "id": 11,
+      "image_url": "https://media.geeksforgeeks.org/wp-content/uploads/20230823152056/What-is-Advance-JAVA.png",
+      "coursename": "Advanced Java Programming",
+      "description": "Covers more advanced topics in Java, such as design patterns and multi-threading.",
+      "instructor": "Emma Harris",
+      "course_price": "89.99",
+      "course_details": "These are just a few examples, and there are many more specialized programming language courses available depending on your interests and career goals. When choosing a course, consider your skill level, your objectives, and the specific programming languages or technologies you want to learn."
+    },
+    {
+      "id": 12,
+      "image_url": "https://stackify.com/wp-content/uploads/2020/09/What-is-C-used-for.png",
+      "coursename": "Software Development with C#",
+      "description": "Teaches C# programming, often used for Windows application development.",
+      "instructor": "James Clark",
+      "course_price": "89.99",
+      "course_details": "These are just a few examples, and there are many more specialized programming language courses available depending on your interests and career goals. When choosing a course, consider your skill level, your objectives, and the specific programming languages or technologies you want to learn."
+    },
+    {
+      "id": 13,
+      "image_url": "https://img-b.udemycdn.com/course/480x270/4039334_8373_2.jpg",
+      "coursename": "Game Development with Unity",
+      "description": "Covers game development using the Unity game engine and the C# programming language.",
+      "instructor": "Charlotte Walker",
+      "course_price": "89.99",
+      "course_details": "These are just a few examples, and there are many more specialized programming language courses available depending on your interests and career goals. When choosing a course, consider your skill level, your objectives, and the specific programming languages or technologies you want to learn."
+    },
+    {
+      "id": 14,
+      "image_url": "https://d269m7btczd6z7.cloudfront.net/paths/rails/og_image/c918b73e373285b975e32f7b5d3ce004.png",
+      "coursename": "Ruby on Rails Web Development",
+      "description": "Focuses on web development using the Ruby programming language and the Ruby on Rails framework.",
+      "instructor": "William Turner",
+      "course_price": "89.99",
+      "course_details": "These are just a few examples, and there are many more specialized programming language courses available depending on your interests and career goals. When choosing a course, consider your skill level, your objectives, and the specific programming languages or technologies you want to learn."
+    },
+    {
+      "id": 15,
+      "image_url": "https://cdn.educba.com/academy/wp-content/uploads/2021/12/Embedded-System-Programming.jpg",
+      "coursename": "Embedded Systems Programming",
+      "description": "Focuses on programming microcontrollers and embedded systems using languages like C and C++.",
+      "instructor": "Harper Hall",
+      "course_price": "89.99",
+      "course_details": "These are just a few examples, and there are many more specialized programming language courses available depending on your interests and career goals. When choosing a course, consider your skill level, your objectives, and the specific programming languages or technologies you want to learn."
+    },
+    {
+      "id": 16,
+      "image_url": "https://images.tristatetechnology.com/blog-images/uploads/2022/02/why-is-python-the-best-for-artificial-intelligence-and-machine-learning.jpg",
+      "coursename": "Machine Learning and AI with Python",
+      "description": "Teaches machine learning and artificial intelligence using Python and libraries like TensorFlow and scikit-learn.",
+      "instructor": "Alexander Scott",
+      "course_price": "89.99",
+      "course_details": "These are just a few examples, and there are many more specialized programming language courses available depending on your interests and career goals. When choosing a course, consider your skill level, your objectives, and the specific programming languages or technologies you want to learn."
+    },
+    {
+      "id": 17,
+      "image_url": "https://tokyotechie.com/blog/wp-content/uploads/2023/06/A-Beginners-Guide-to-Blockchain-Development.jpg",
+      "coursename": "Blockchain Development",
+      "description": "Focuses on blockchain technology and often includes smart contract development using languages like Solidity.",
+      "instructor": "Amelia King",
+      "course_price": "89.99",
+      "course_details": "These are just a few examples, and there are many more specialized programming language courses available depending on your interests and career goals. When choosing a course, consider your skill level, your objectives, and the specific programming languages or technologies you want to learn."
+    },
+    {
+      "id": 18,
+      "image_url": "https://miro.medium.com/v2/resize:fit:2000/1*5CNDL9w3ba-7mp4NMbveOA.png",
+      "coursename": "Data Science with R",
+      "description": "Explore data analysis, data visualization, and machine learning with the R programming language.",
+      "instructor": "Michael Baker",
+      "course_price": "89.99",
+      "course_details": "These are just a few examples, and there are many more specialized programming language courses available depending on your interests and career goals. When choosing a course, consider your skill level, your objectives, and the specific programming languages or technologies you want to learn."
+    },
+    {
+      "id": 19,
+      "image_url": "https://bairesdev.mo.cloudinary.net/blog/2023/08/What-Is-JavaScript-Used-For.jpg?tx=w_3840,q_auto",
+      "coursename": "Web Development with JavaScript",
+      "description": "Focuses on the engine that is used for building interactive aspects in the websites that broadens the functionality",
+      "instructor": "Oliver Murphy",
+      "course_price": "89.99",
+      "course_details": "These are just a few examples, and there are many more specialized programming language courses available depending on your interests and career goals. When choosing a course, consider your skill level, your objectives, and the specific programming languages or technologies you want to learn."
+    },
+    {
+      "id": 20,
+      "image_url": "https://www.testpreptraining.com/blog/wp-content/uploads/2020/03/Computing.png",
+      "coursename": "DevOps and Cloud Computing",
+      "description": "DevOps is a software engineering practice that is suited to cloud computing. In a DevOps environment, developers collaborate with IT operations and other teams.",
+      "instructor": "Evelyn Adams",
+      "course_price": "89.99",
+      "course_details": "These are just a few examples, and there are many more specialized programming language courses available depending on your interests and career goals. When choosing a course, consider your skill level, your objectives, and the specific programming languages or technologies you want to learn."
+    }
+  ],
+
+  "users": [
+    {
+      "id": 1,
+      "user_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/User-avatar.svg/1200px-User-avatar.svg.png",
+      "username": "TechMaverick",
+      "useremail": "TechMaverick@email.net",
+      "userpassword": "123456"
+    },
+    {
+      "id": 2,
+      "user_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/User-avatar.svg/1200px-User-avatar.svg.png",
+      "username": "EchoWarrior",
+      "useremail": "EchoWarrior@email.com",
+      "userpassword": "123456"
+    },
+    {
+      "id": 3,
+      "user_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/User-avatar.svg/1200px-User-avatar.svg.png",
+      "username": "ByteBlaster",
+      "useremail": "ByteBlaster@email.com",
+      "userpassword": "123456"
+    },
+    {
+      "id": 4,
+      "user_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/User-avatar.svg/1200px-User-avatar.svg.png",
+      "username": "SolarScribe",
+      "useremail": "SolarScribe@email.org",
+      "userpassword": "123456"
+    },
+    {
+      "id": 5,
+      "user_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/User-avatar.svg/1200px-User-avatar.svg.png",
+      "username": "CyberJumper",
+      "useremail": "CyberJumper@email.org",
+      "userpassword": "123456"
+    }
+  ]
+}
