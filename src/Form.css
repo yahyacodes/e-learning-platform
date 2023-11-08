@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   background-color: aquamarine;
+}
+*{
+    box-sizing: border-box;
+}
+form{
+    display: block;
+    background-color: aquamarine;
+    box-shadow: 1px 1px 3px #ddd;
+    margin: 40px auto;
+    max-width: 400px;
+    max-height: 500px;
+    padding: 20px 40px;
+
+}
+form input, textarea{
+    display: block;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px auto;
+    padding: 8px;
+    font-family: "poppins";
+    font-size: 18px;
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    
+
+}
+form span{
+    color: green;
+}
+form button {
+    height:  25px;
+    width: 60px;
+    align-items: center;
+    border: none;
+    background-color: aqua;
+    color: #ddd;
+    cursor: pointer;
+
+}
