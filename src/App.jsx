@@ -7,6 +7,9 @@ function App() {
   return (
     <>
       <h1>E-Learning platform</h1>
+      <h1 className="textcolor">
+      Hello world!
+    </h1>
     </>
   );
 }
