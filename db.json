@@ -218,5 +218,38 @@
       "useremail": "CyberJumper@email.org",
       "userpassword": "123456"
     }
+  ],
+
+  "feedback": [
+    {
+      "id": 1,
+      "feedbackname": "ByteBlaster",
+      "feedbackemail": "ByteBlaster@email.com",
+      "comment": "This e-learning platform helped me kickstart my programming journey through providing relevent programming courses"
+    },
+    {
+      "id": 2,
+      "feedbackname": "CyberJumper",
+      "feedbackemail": "CyberJumper@email.org",
+      "comment": "This e-learning platform helped me kickstart my programming journey through providing relevent programming courses"
+    },
+    {
+      "id": 3,
+      "feedbackname": "EchoWarrior",
+      "feedbackemail": "EchoWarrior@email.com",
+      "comment": "This e-learning platform helped me kickstart my programming journey through providing relevent programming courses"
+    },
+    {
+      "id": 4,
+      "feedbackname": "TechMaverick",
+      "feedbackemail": "TechMaverick@email.net",
+      "comment": "This e-learning platform helped me kickstart my programming journey through providing relevent programming courses"
+    },
+    {
+      "id": 5,
+      "feedbackname": "SolarScribe",
+      "feedbackemail": "SolarScribe@email.org",
+      "comment": "This e-learning platform helped me kickstart my programming journey through providing relevent programming courses"
+    }
   ]
 }
