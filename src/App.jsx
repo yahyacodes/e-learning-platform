@@ -1,15 +1,17 @@
-import { useState } from "react";
+import React from "react";
+import SaveSignIn from "./Components/SignInSignUp/SaveSignIn";
 import "./App.css";
+import SignIn from "./Components/SignInSignUp/SignIn";
+import SignUp from "./Components/SignInSignUp/SignUp";
+import Like from "./Components/Like";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <h1>E-Learning platform</h1>
-      <h1 className="textcolor">
-      Hello world!
-    </h1>
+      <SaveSignIn />
+      <SignIn />
+      <SignUp />
+      <Like />
     </>
   );
 }
