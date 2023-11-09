@@ -6,12 +6,13 @@ export default function LogUser() {
   const [users, setUsers] = useState([]);
   const [loggedInUser, setLoggedInUser] = useState(null);
 
-  //add a new user during sign-up
+
+  
   const handleSignUp = (user) => {
     setUsers([...users, user]);
   };
+  
 
-  //handle sign-in
   const handleSignIn = (username, password) => {
     const user = users.find((u) => u.username === username && u.password === password);
     if (user) {
