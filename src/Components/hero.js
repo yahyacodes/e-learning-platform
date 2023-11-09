@@ -1,12 +1,11 @@
-import { StyleSheet, Text, View } from 'react-native'
+
 import React from 'react'
 
-export default function Hero() {
+function hero() {
   return (
-    <View>
-      <Text></Text>
-    </View>
+    <div>Hero</div>
   )
 }
 
-const styles = StyleSheet.create({})
+export default hero
+
