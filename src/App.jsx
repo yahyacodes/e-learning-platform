@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import Form from "./Components/Form"; 
 import Header from "./Components/ProgressComponents/Header";
@@ -8,6 +7,9 @@ import "./Components/ProgressComponents/progress.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 function App() {
+<<<<<<< HEAD
+  return <></>;
+=======
   const [count, setCount] = useState(0);
 
   return (
@@ -22,6 +24,7 @@ function App() {
 
     </>
   );
+>>>>>>> 379b4c05106ea08c855d78f2a7cf94bb0da52715
 }
 
 export default App;
