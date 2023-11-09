@@ -1,15 +1,21 @@
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
+import CourseList from "./components/CourseList";
+
 import "./App.css";
-import Form from "./Components/Form"; 
+import Form from "./Components/Form";
 import Header from "./Components/ProgressComponents/Header";
 import Progress from "./Components/ProgressComponents/progress";
 import "./Form.css";
 import "./Components/ProgressComponents/progress.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faXmark } from '@fortawesome/free-solid-svg-icons';
-function App() {
-  const [count, setCount] = useState(0);
 
+function App() {
+  const [course, setCourse] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:3000/courses")
+      .then((res) => res.json())
+      .then((data) => setCourse(data));
+  }, []);
   return (
     <>
       <h1>E-Learning platform</h1>
@@ -19,9 +25,7 @@ function App() {
     <Form/>
      <Header/>
      <Progress/>
-     <Task-Items/>
-     <Task-Items/>
-     <Task-Items/>
+
     </>
   );
 }
