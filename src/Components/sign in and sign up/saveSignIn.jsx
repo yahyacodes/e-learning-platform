@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import SignIn from "./signIn";
-import SignUp from "./signUp"; 
+import SignUp from "./signUp";
 
 export default function LogUser() {
   const [users, setUsers] = useState([]);
@@ -13,7 +13,9 @@ export default function LogUser() {
 
   //handle sign-in
   const handleSignIn = (username, password) => {
-    const user = users.find((u) => u.username === username && u.password === password);
+    const user = users.find(
+      (u) => u.username === username && u.password === password
+    );
     if (user) {
       setLoggedInUser(user);
       alert("Login successful!");
@@ -27,7 +29,12 @@ export default function LogUser() {
       {loggedInUser ? (
         <div>
           <p>Welcome, {loggedInUser.username}!</p>
-          <button onClick={() => setLoggedInUser(null)}>Sign Out</button>
+          <button
+            onClick={() => setLoggedInUser(null)}
+            className="fluid ui button"
+          >
+            Sign Out
+          </button>
         </div>
       ) : (
         <div>

@@ -10,20 +10,29 @@ function SignIn({ onSignIn }) {
 
   return (
     <div>
-      <h2>Sign In</h2>
-      <input
-        type="text"
-        placeholder="Username"
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
-      />
-      <input
-        type="password"
-        placeholder="Password"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-      />
-      <button onClick={handleSignIn}>Sign In</button>
+      <form className="ui form">
+        <h2>Sign In</h2>
+        <div className="field">
+          <input
+            type="text"
+            placeholder="Username"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+          />
+        </div>
+
+        <div className="field">
+          <input
+            type="password"
+            placeholder="Password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+        </div>
+        <button className="fluid ui button" onClick={handleSignIn}>
+          Sign In
+        </button>
+      </form>
     </div>
   );
 }
