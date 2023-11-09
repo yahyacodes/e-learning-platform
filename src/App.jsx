@@ -5,7 +5,8 @@ import Header from "./Components/ProgressComponents/Header";
 import Progress from "./Components/ProgressComponents/progress";
 import "./Form.css";
 import "./Components/ProgressComponents/progress.css";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faXmark } from '@fortawesome/free-solid-svg-icons';
 function App() {
   const [count, setCount] = useState(0);
 
@@ -18,6 +19,7 @@ function App() {
     <Form/>
      <Header/>
      <Progress/>
+
     </>
   );
 }
