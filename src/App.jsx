@@ -19,7 +19,9 @@ function App() {
     <Form/>
      <Header/>
      <Progress/>
-
+     <Task-Items/>
+     <Task-Items/>
+     <Task-Items/>
     </>
   );
 }
