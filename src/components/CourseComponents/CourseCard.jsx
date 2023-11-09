@@ -1,39 +1,40 @@
 import React from "react";
 
-function CourseCard(props) {
-  const { imgUrl, title, lesson, students, rating } = props.item;
-
+const CourseCard = ({
+  image_url,
+  description,
+  coursename,
+  instructor,
+  course_price,
+}) => {
   return (
-    <div className="single__course__item">
-      <div className="course__img">
-        <img src={imgUrl} alt="" className="w-100" />
-      </div>
+    <>
+      <div className="four wide column">
+        <div className="ui card">
+          <img src={image_url} alt="" className="ui image rounded" />
+          <div className="content">
+            <h1 className="Second header">{coursename}</h1>
 
-      <div className="course__details">
-        <h6 className="course__title mb-4">{title}</h6>
+            <p className="Fifth header">
+              Instructor: <span className="ui header">{instructor}</span>
+            </p>
 
-        <div className="d-flex justify-content-between align-items-center">
-          <p className="lesson d-flex align-items-center gap-1">
-            <i className="ri-book-open-line"></i> {lesson} Lessons
-          </p>
+            <p className="description">
+              <i className="ri-book-open-line"></i> {description}{" "}
+            </p>
 
-          <p className="students d-flex align-items-center gap-1">
-            <i className="ri-user-line"></i> {students}K
-          </p>
-        </div>
+            <h4 className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Price: <span className="header">{course_price}</span>
+            </h4>
 
-        <div className="d-flex justify-content-between align-items-center">
-          <p className="rating d-flex align-items-center gap-1">
-            <i className="ri-star-fill"></i> {rating}K
-          </p>
-
-          <p className="enroll d-flex align-items-center gap-1">
-            <a href="#"> Enroll Now</a>
-          </p>
+            <button className="ui primary basic button">
+              <a href="#"> Enroll Now</a>
+            </button>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
-}
+};
 
 export default CourseCard;
