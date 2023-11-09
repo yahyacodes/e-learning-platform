@@ -1,16 +1,20 @@
-import { useState } from "react";
-import "./App.css";
+import React, { useState, useEffect } from "react";
+// import "./App.css";
+import CourseList from "./components/CourseList";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [course, setCourse] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:3000/courses")
+      .then((res) => res.json())
+      .then((data) => setCourse(data));
+  }, []);
 
   return (
-    <>
-      <h1>E-Learning platform</h1>
-      <h1 className="textcolor">
-      Hello world!
-    </h1>
-    </>
+    <div className="ui container">
+      <CourseList course={course} />
+    </div>
   );
 }
 
