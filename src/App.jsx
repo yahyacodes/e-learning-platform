@@ -1,19 +1,12 @@
-import "./App.css";
-import Form from "./Components/Form";
-import Header from "./Components/ProgressComponents/Header";
-import Progress from "./Components/ProgressComponents/progress";
-import "./Form.css";
-import "./Components/ProgressComponents/progress.css";
+import Form from "./components/FormComponents/Form";
+import Progress from "./components/ProgressComponents/Progress";
 
 function App() {
   return (
-    <>
-      <h1>E-Learning platform</h1>
-      <h1 className="textcolor">Hello world!</h1>
+    <div className="ui container">
       <Form />
-      <Header />
       <Progress />
-    </>
+    </div>
   );
 }
 

@@ -18,7 +18,9 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.1",
     "react-dom": "^18.2.0",
-    "react-fontawesome-svg-icon": "^1.1.2"
+    "react-fontawesome-svg-icon": "^1.1.2",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
@@ -28,7 +30,6 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
-    "tailwindcss": "^3.3.5",
     "vite": "^4.4.5"
   }
 }
