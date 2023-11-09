@@ -1,11 +1,11 @@
 
 import React from 'react'
 
-function hero() {
+function Hero() {
   return (
     <div>Hero</div>
   )
 }
 
-export default hero
+export default Hero
 
