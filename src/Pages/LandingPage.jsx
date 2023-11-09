@@ -1,27 +1,20 @@
-// import React from 'react'
-// import Navbar from '../Components/navBar'
-
-// function LandingPage() {
-//   return (
-//     <div>
-//         <Navbar/>
-//     </div>
-//   )
-// }
-
-// export default LandingPage
-
-// LandingPage.jsx
-
 import React from "react";
 import NavBar from "./NavBar";
-import Hero from "../Components/hero";
+import Hero from "../Components/Hero";
+import TopCourses from "../Components/TopCourses";
+import Testimonials from "../Components/Testimonials";
+import Join from "../Components/Join";
+import Footer from "../Components/Footer";
 
 const LandingPage = () => {
   return (
     <div>
-      <NavBar/>
-      <Hero/>
+      <NavBar />
+      <Hero />
+      <TopCourses />
+      <Testimonials />
+      <Join />
+      <Footer />
     </div>
   );
 };
