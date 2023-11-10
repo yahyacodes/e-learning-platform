@@ -9,7 +9,7 @@ function TopCourses() {
       </h1>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-4 px-28 mt-16 mb-10">
         <div className="">
-          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
             <a href="#">
               <img
                 className="rounded-t-lg"
@@ -19,7 +19,7 @@ function TopCourses() {
             </a>
             <div className="p-5">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
                   Java Programming
                 </h5>
               </a>
@@ -53,7 +53,7 @@ function TopCourses() {
         </div>
 
         <div>
-          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
             <a href="#">
               <img
                 className="rounded-t-lg"
@@ -63,7 +63,7 @@ function TopCourses() {
             </a>
             <div className="p-5">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
                   Web Development with HTML, CSS, and JavaScript
                 </h5>
               </a>
@@ -97,7 +97,7 @@ function TopCourses() {
         </div>
 
         <div>
-          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
             <a href="#">
               <img
                 className="rounded-t-lg"
@@ -107,7 +107,7 @@ function TopCourses() {
             </a>
             <div className="p-5">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
                   Game Development with Unity
                 </h5>
               </a>
@@ -141,7 +141,7 @@ function TopCourses() {
         </div>
 
         <div>
-          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
             <a href="#">
               <img
                 className="rounded-t-lg"
@@ -151,7 +151,7 @@ function TopCourses() {
             </a>
             <div className="p-5">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
                   Android App Development with Kotlin
                 </h5>
               </a>
