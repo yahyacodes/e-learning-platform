@@ -2,16 +2,16 @@ import React, { useState, useEffect } from "react";
 import { Routes, Route } from "react-router";
 import CourseList from "./components/CourseComponents/CourseList";
 import Form from "./components/FormComponents/Form";
-import Progress from "./components/ProgressComponents/Progress";
 import LandingPage from "./components/LandingPage/LandingPage";
 import SignIn from "./components/sign in and sign up/signIn";
 import SignUp from "./components/sign in and sign up/signUp";
 
 function App() {
   const [course, setCourse] = useState([]);
+  const [query, setQuery] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:3000/courses")
+    fetch("http://localhost:3000/courses?q=" + query)
       .then((res) => res.json())
       .then((data) => setCourse(data));
   }, []);
@@ -28,5 +28,4 @@ function App() {
     </>
   );
 }
-
 export default App;

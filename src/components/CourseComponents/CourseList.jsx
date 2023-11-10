@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import CourseCard from "./CourseCard";
 import NavBar from "../LandingPage/NavBar";
+import Search from "./Search";
 import { Link } from "react-router-dom";
 
 function CourseList({ course }) {
   const [selectedCard, setSelectedCard] = useState();
+  const [query, setQuery] = useState("");
 
   const handleCardClick = (card) => {
     setSelectedCard(card);
@@ -14,10 +16,15 @@ function CourseList({ course }) {
     alert(`Thank you for enroll wish you the best with your course`);
   };
 
+  function handleSearch(e) {
+    setQuery(e.target.value);
+  }
+
   return (
     <>
       <NavBar />
       <div className="ui container" style={{ marginTop: "2em" }}>
+        <Search handleSearch={handleSearch} />
         {selectedCard ? (
           <div>
             <Link to="/courses">
@@ -46,7 +53,7 @@ function CourseList({ course }) {
             </div>
           </div>
         ) : (
-          <div className="ui relaxed grid">
+          <div className="ui relaxed grid" style={{ marginTop: "2em" }}>
             {course.map((single) => {
               return (
                 <CourseCard
