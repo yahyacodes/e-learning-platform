@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import CourseCard from "./CourseCard";
 import NavBar from "../LandingPage/NavBar";
-import Search from "./Search";
 import { Link } from "react-router-dom";
 
 function CourseList({ course }) {
@@ -13,18 +12,13 @@ function CourseList({ course }) {
   };
 
   const handleEnroll = () => {
-    alert(`Thank you for enroll wish you the best with your course`);
+    alert(`Thank you for enrolling, we wish you the best with your course`);
   };
-
-  function handleSearch(e) {
-    setQuery(e.target.value);
-  }
 
   return (
     <>
       <NavBar />
       <div className="ui container" style={{ marginTop: "2em" }}>
-        <Search handleSearch={handleSearch} />
         {selectedCard ? (
           <div>
             <Link to="/courses">

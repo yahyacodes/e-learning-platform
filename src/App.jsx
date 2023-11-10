@@ -5,6 +5,7 @@ import Form from "./components/FormComponents/Form";
 import LandingPage from "./components/LandingPage/LandingPage";
 import SignIn from "./components/sign in and sign up/signIn";
 import SignUp from "./components/sign in and sign up/signUp";
+import Search from "./components/CourseComponents/Search";
 
 function App() {
   const [course, setCourse] = useState([]);
@@ -14,10 +15,11 @@ function App() {
     fetch("http://localhost:3000/courses?q=" + query)
       .then((res) => res.json())
       .then((data) => setCourse(data));
-  }, []);
+  }, [query]);
 
   return (
     <>
+      <Search setQuery={setQuery} />
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/login-page" element={<SignIn />} />

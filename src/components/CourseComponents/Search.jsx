@@ -1,10 +1,19 @@
 import React from "react";
 
-function Search({ handleSearch }) {
+function Search({ setQuery }) {
+  const handleSearch = (e) => {
+    setQuery(e.target.value);
+  };
+
   return (
-    <div className="ui large fluid icon input">
-      <input type="text" placeholder="Search..." onChange={handleSearch} />
-      <i className="circular search link icon"></i>
+    <div className="ui action input" style={{ marginBottom: "1em" }}>
+      <input
+        type="text"
+        placeholder="Search courses..."
+        onChange={handleSearch}
+        style={{ borderRadius: "0" }}
+      />
+      <button className="ui button primary">Search</button>
     </div>
   );
 }
