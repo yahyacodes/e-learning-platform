@@ -1,13 +1,57 @@
-import React from "react";
+import React, { useState } from "react";
 import CourseCard from "./CourseCard";
+import NavBar from "../LandingPage/NavBar";
+import { Link } from "react-router-dom";
 
 function CourseList({ course }) {
+  const [selectedCard, setSelectedCard] = useState();
+
+  const handleCardClick = (card) => {
+    setSelectedCard(card);
+  };
+
   return (
     <>
-      <div className="ui relaxed grid">
-        {course.map((single) => {
-          return <CourseCard key={single.id} {...single} />;
-        })}
+      <NavBar />
+      <div className="ui container" style={{ marginTop: "2em" }}>
+        {selectedCard ? (
+          <div>
+            <Link to="/courses">
+              <i className="arrow left icon"></i>
+            </Link>
+            <div className="ui container" style={{ marginTop: "10em" }}>
+              <h2 className="Second header">{selectedCard.coursename}</h2>
+              <img
+                src={selectedCard.image_url}
+                alt=""
+                className="ui medium rounded image"
+              />
+              <h3 className="Third header">
+                Instructor: {selectedCard.instructor}
+              </h3>
+              <h4 className="Fourth header">{selectedCard.course_details}</h4>
+              <h5 className="Fifth header">
+                Price: {selectedCard.course_price}
+              </h5>
+              <button className="ui primary basic button">
+                <a href="#"> Enroll Now</a>
+              </button>
+            </div>
+          </div>
+        ) : (
+          <div className="ui relaxed grid">
+            {course.map((single) => {
+              return (
+                <CourseCard
+                  key={single.id}
+                  {...single}
+                  card={single}
+                  onCardClick={handleCardClick}
+                />
+              );
+            })}
+          </div>
+        )}
       </div>
     </>
   );

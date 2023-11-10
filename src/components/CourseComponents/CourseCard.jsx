@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CourseCard = ({
   image_url,
@@ -6,11 +7,13 @@ const CourseCard = ({
   coursename,
   instructor,
   course_price,
+  card,
+  onCardClick,
 }) => {
   return (
     <>
       <div className="four wide column">
-        <div className="ui card">
+        <div className="ui card" onClick={() => onCardClick(card)}>
           <img src={image_url} alt="" className="ui image rounded" />
           <div className="content">
             <h1 className="Second header">{coursename}</h1>

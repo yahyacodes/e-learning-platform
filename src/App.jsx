@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from "react";
-import "./App.css";
+import { Routes, Route } from "react-router";
+import CourseList from "./components/CourseComponents/CourseList";
 import Form from "./components/FormComponents/Form";
 import Progress from "./components/ProgressComponents/Progress";
-import CourseList from "./components/CourseComponents/CourseList";
-import Form from "./Components/Form";
-import Progress from "./Components/ProgressComponents/progress";
-import "./Form.css";
-import "./Components/ProgressComponents/progress.css";
-import LandingPage from "./LandingPage/LandingPage";
+import LandingPage from "./components/LandingPage/LandingPage";
+import SignIn from "./components/sign in and sign up/signIn";
+import SignUp from "./components/sign in and sign up/signUp";
 
 function App() {
   const [course, setCourse] = useState([]);
@@ -17,14 +15,16 @@ function App() {
       .then((res) => res.json())
       .then((data) => setCourse(data));
   }, []);
+
   return (
     <>
-    <div className="ui container">
-      <Form />
-      <Progress />
-      <CourseList course={course} />
-      <LandingPage />
-      </div>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/login-page" element={<SignIn />} />
+        <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/courses" element={<CourseList course={course} />} />
+        <Route path="/contact-us" element={<Form />} />
+      </Routes>
     </>
   );
 }
