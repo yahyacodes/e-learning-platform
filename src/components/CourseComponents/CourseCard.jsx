@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const CourseCard = ({
@@ -31,7 +31,7 @@ const CourseCard = ({
             </h4>
 
             <button className="ui primary basic button">
-              <a href="#"> Enroll Now</a>
+              See More <i className="arrow right icon"></i>{" "}
             </button>
           </div>
         </div>

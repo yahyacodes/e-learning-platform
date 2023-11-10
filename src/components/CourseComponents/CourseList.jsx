@@ -10,6 +10,10 @@ function CourseList({ course }) {
     setSelectedCard(card);
   };
 
+  const handleEnroll = () => {
+    alert(`Thank you for enroll wish you the best with your course`);
+  };
+
   return (
     <>
       <NavBar />
@@ -33,8 +37,11 @@ function CourseList({ course }) {
               <h5 className="Fifth header">
                 Price: {selectedCard.course_price}
               </h5>
-              <button className="ui primary basic button">
-                <a href="#"> Enroll Now</a>
+              <button
+                className="ui primary basic button"
+                onClick={handleEnroll}
+              >
+                Enroll Now
               </button>
             </div>
           </div>
